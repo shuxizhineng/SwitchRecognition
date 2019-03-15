@@ -1,9 +1,9 @@
 # SwitchRecognition
 
 
-# ### Training datasets preparing
+# Training datasets preparing
 
-# ### Detect model finetune
+# Detect model finetune
 frcnn model finetune
 
 ## Train:
