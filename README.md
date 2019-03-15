@@ -2,7 +2,7 @@
 
 # Training datasets preparing
 
-1. Get labeled imgs/xml datasets unzip to data/on_off_jpg_data/ data/on_off_xml_data/
+1. Get labeled imgs and xmls datasets unzip to data/on_off_jpg_data/ data/on_off_xml_data/
 
 2. Get pretrained faster rcnn resnet101 model unzip to data/
 
@@ -11,14 +11,14 @@
 4. Build tf record file
 
 ```python
-python data_conversion_udacity_real_kaiguan.py \-\-output_path data/on_off_output/on_off.record
+python data_conversion_udacity_real_kaiguan.py --output_path data/on_off_output/on_off.record
 ```
 # Detect model finetune
 ## frcnn model finetune
 ### Train:
 
 ```python
-python object_detection/train.py --pipeline_config_path=data/config/faster_rcnn_resnet101_udacitycapstonejunior_kaiguan.config --train_dir=data/real_training_data_kaiguan/frcnn_model
+python object_detection\/train.py --pipeline_config_path=data/config/faster_rcnn_resnet101_udacitycapstonejunior_kaiguan.config --train_dir=data/real_training_data_kaiguan/frcnn_model
 ```
 ### Export:
 
