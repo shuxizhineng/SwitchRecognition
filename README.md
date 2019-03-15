@@ -11,7 +11,7 @@
 4. Build tf record file
 
 ```python
-python data_conversion_udacity_real_kaiguan.py \--output_path data/on_off_output/on_off.record
+python data_conversion_udacity_real_kaiguan.py \-\-output_path data/on_off_output/on_off.record
 ```
 # Detect model finetune
 ## frcnn model finetune
