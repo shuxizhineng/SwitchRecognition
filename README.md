@@ -19,7 +19,7 @@ python data_conversion_udacity_real_kaiguan.py --output_path data/on_off_output/
 ### Train:
 
 ```bash
-python object_detection\/train.py --pipeline_config_path=data/config/faster_rcnn_resnet101_udacitycapstonejunior_kaiguan.config --train_dir=data/real_training_data_kaiguan/frcnn_model
+python object_detection/train.py --pipeline_config_path=data/config/faster_rcnn_resnet101_udacitycapstonejunior_kaiguan.config --train_dir=data/real_training_data_kaiguan/frcnn_model
 ```
 
 ### Export:
